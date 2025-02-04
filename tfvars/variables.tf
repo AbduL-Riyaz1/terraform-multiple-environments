@@ -22,5 +22,6 @@ variable "comman_tags" {
   type = map
   default = {
     Project = "expense"
+    terraform =true
   }
 }
